@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  align-items: center;
+  // background: #ae0404db;
+  padding: 100px 0;
+  
+  .contact__bar {
+    background: orangered;
+    height: 50px;
+    width: 68%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #000;
+    border-bottom: 2px;
+
+    image {
+      margin-right: 40px;
+    }
+    p {
+      margin-right: 40px;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: 'Sansita Swashed', cursive;
+
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    span {
+      padding: 0px 20px;
+      margin: 0;
+      // margin-right: 40px;
+      font-family: 'Sansita Swashed', cursive;
+    }
+  }
+  h1 {
+    margin-left: 100px;
+    font-size: clamp(1.3em, 2vw, 1.5rem);
+    color: #fff;
+    font-family: 'Sansita Swashed', cursive;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    .contact__bar {
+      width: 100%;
+      justify-content: center;
+      font-family: 'MuseoModerno', cursive;
+      image {
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 50px;
+      }
+      p {
+        margin-right: 16px;
+      }
+      span {
+        font-size: 16px;
+        
+        
+      }
+    }
+    h1 {
+      margin-left: 0;
+      margin-top: 32px;
+      font-size: 32px;
+    }
+  }
+}

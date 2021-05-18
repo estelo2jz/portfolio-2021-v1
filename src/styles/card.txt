@@ -1,0 +1,45 @@
+.portfolio__container {
+  padding: 80px 0px;
+  height: 100%;
+  .portfolio__heading {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    p {
+      font-size: 1.5em;
+    }
+  }
+  .portfolio__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .portfolioitems__container {
+      .portfolio__url-container {
+
+      }
+      .portfolio__image__container {
+        .portfolio__image__self {
+
+        }
+      }
+      .portfolio__desc__container {
+        .portfolio__image__self {
+          img {
+            width: 150px;
+          }
+        }
+        .portfolio__desc__heading {
+          .portfolio__desc__items {
+            .portfolio__desc__items__line {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
