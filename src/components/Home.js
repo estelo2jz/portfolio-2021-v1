@@ -12,7 +12,7 @@ export default class Home extends Component {
           <div className="column__left">
             <div className="hero__header">
               <div>
-                <p>Web Developer</p>
+                <p>Web / Mobile Developer</p>
               </div>
               <div className="hero__logo">
                 <ul>
@@ -26,7 +26,7 @@ export default class Home extends Component {
               </div>
             </div>
             <p>
-              I'm a self-taught Web developer with 2+ years of experience. Where I am able to design and build web application. My other hobbies besides coding are computers and cars mostly JDMs. I spent most of time learning and honing my current skillset. I'm a tech enthusiast, passionate in codes. 
+              I'm a self-taught Web developer with 2+ years of experience. Where I am able to design and build web application. I spent most of time learning and honing my current skillset.
               I love to design and build responsive web applications. I am eager to learn new techonologies, and I'm currently looking for new opportunities with a <a href="https://github.com/estelo2jz">github</a> ready portfolio.
             </p>
           </div>

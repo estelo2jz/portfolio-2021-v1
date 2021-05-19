@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { FaCode, FaFacebook } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import { FaCodepen } from 'react-icons/fa';
 
 export default class Footer extends Component {
   render() {
@@ -13,7 +12,7 @@ export default class Footer extends Component {
           <div className="footer__left">
             <h2>Estelo Abellanosa</h2>
             <p>
-              Web Developer
+              Web / Mobile Developer
             </p>
           </div>
           <div className="footer__right">
