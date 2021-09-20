@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
         <div className="portfolio__container">
           <div className="portfolio__portfolio__container">
             <div>
-              <h1>Projects</h1>
+              <h1>React Web Projects</h1>
             </div>
           </div>
           {/* <h2>Project</h2> */}
