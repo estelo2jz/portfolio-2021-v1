@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import Mobile from "./components/Mobile";
 import PortfolioCard from "./components/PortfolioCard";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ function App() {
       <About />
       {/* <Services /> */}
       <Portfolio />
+      <Mobile />
       <Contact />
       <Footer />
     </div>
