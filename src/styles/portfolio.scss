@@ -109,6 +109,8 @@
               // background: rgba(255, 255, 255, 0.25);
               // background: rgba(75, 73, 73, 0.25);
               background-color: #10316b;
+              opacity: 0.9;
+
 
               text-decoration: none;
               .portfolio__url-container {
@@ -118,6 +120,7 @@
                 align-content: center;
                 width: 100%;
                 height: 60px;
+                opacity: relative;
                 p {
                   text-decoration: none;
                   color: #fff;
@@ -177,11 +180,27 @@
                 }
               }
             }
-            // .portfolioitems__container:hover {
-            //   transition: all 0.3s ease-in-out;
-            //   background: rgba(75, 73, 73, 0.25);
-            //   transition-delay: 0.1s;
-            // }
+            .portfolioitems__container:hover {
+              transition: all 0.3s ease-in-out;
+              // background: rgba(75, 73, 73, 0.25);
+              background-color: #10316b;
+              transition-delay: 0.1s;
+              opacity: 0.9;
+              color: black;
+              .portfolio__desc__container {
+                portfolio__desc__items {
+                  color: cyan !important;; 
+                }
+              .portfolio__desc__items {
+                color: cyan;
+
+              }
+
+              }
+              p {
+                color: cyan !important;
+              }
+            }
           }
         }
       }
