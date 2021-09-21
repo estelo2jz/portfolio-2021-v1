@@ -3,7 +3,7 @@ import { MobileItems } from "./MobileItems";
 import {Link} from 'react-router-dom';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
-import RNLogo from '../images/react-native.png';
+import RNLogo from '../images/react-native3.png';
 import '../styles/mobile.scss';
 
 
@@ -12,8 +12,13 @@ export default class Portfolio extends Component {
     return (
       <div className="mobile" id="mobile">
         <div className="mobile__header">
-          <div>
+          <div className="mobile__logo">
             <img src={RNLogo} alt="react-native-logo" />
+          </div>
+          <div className="mobile__exp">
+            <p>
+              My experience in building and implementing react native projects to improve my skills by learning on how to build better UI.
+            </p>
           </div>
         </div>
         <div className="mobile__project">
