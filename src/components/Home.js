@@ -12,7 +12,7 @@ export default class Home extends Component {
           <div className="column__left">
             <div className="hero__header">
               <div>
-                <p>Web / Mobile Developer</p>
+                <p>React Developer</p>
               </div>
               <div className="hero__logo">
                 <ul>
