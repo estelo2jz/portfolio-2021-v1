@@ -3,7 +3,7 @@ import { MobileItems } from "./MobileItems";
 import {Link} from 'react-router-dom';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
-import RNLogo from '../images/react-native.jpg';
+import RNLogo from '../images/react-native.png';
 import '../styles/mobile.scss';
 
 
