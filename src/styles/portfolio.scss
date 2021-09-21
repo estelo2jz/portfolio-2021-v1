@@ -10,14 +10,14 @@
     height: 100%;
     .portfolio__portfolio__container {
       display: flex;
-      // justify-content: center;
+      justify-content: center;
       align-items: center;
       align-content: center;
       grid-column-gap: 20px;
       h1 {
         // font-family: 'Sansita Swashed', cursive;
         font-size: calc(1vw + 2rem);
-        padding: 10px 0px;
+        padding: 60px 0px;
       }
 
       .portfolio__projects {
@@ -110,7 +110,8 @@
               transition: all 0.3s ease-in-out;
               // background: rgba(255, 255, 255, 0.25);
               // background: rgba(75, 73, 73, 0.25);
-              background-color: #10316b;
+              // background-color: #10316b;
+              border: 1px solid #333;
               opacity: 0.9;
 
 
@@ -125,7 +126,7 @@
                 opacity: relative;
                 p {
                   text-decoration: none;
-                  color: #fff;
+                  color: #333;
                   font-size: 1.2em;
                   width: 100%;
                   padding: 10px;
@@ -177,32 +178,32 @@
                     font-family: 'Sansita Swashed', cursive;
                     text-align: center;
                     margin: 0 10px;
-                    color: #fff;
+                    color: #333;
                   }
                 }
               }
             }
-            .portfolioitems__container:hover {
-              transition: all 0.3s ease-in-out;
-              // background: rgba(75, 73, 73, 0.25);
-              background-color: #10316b;
-              transition-delay: 0.1s;
-              opacity: 0.9;
-              color: black;
-              .portfolio__desc__container {
-                portfolio__desc__items {
-                  color: cyan !important;; 
-                }
-              .portfolio__desc__items {
-                color: cyan;
+            // .portfolioitems__container:hover {
+            //   transition: all 0.3s ease-in-out;
+            //   // background: rgba(75, 73, 73, 0.25);
+            //   // background-color: #10316b;
+            //   transition-delay: 0.1s;
+            //   opacity: 0.9;
+            //   color: black;
+            //   .portfolio__desc__container {
+            //     portfolio__desc__items {
+            //       color: cyan !important;; 
+            //     }
+            //   .portfolio__desc__items {
+            //     color: cyan;
 
-              }
+            //   }
 
-              }
-              p {
-                color: cyan !important;
-              }
-            }
+            //   }
+            //   p {
+            //     color: cyan !important;
+            //   }
+            // }
           }
         }
       }
