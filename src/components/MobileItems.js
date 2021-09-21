@@ -9,32 +9,32 @@ import Trip from "../images/mobile/trip.png";
 
 
 export const MobileItems = [
-  {
-    title: 'Trip UI',
-    url: 'https://media4.giphy.com/media/bM0w2QJtD1zZFsvI3G/giphy.gif?cid=790b76119ec73b73b2ca8ffdacb7783542aee569afcb7cb8&rid=giphy.gif&ct=g',
-    mobileImage: Trip,
-    description: ['React Native UI',]
-  },
-  {
-    title: 'Travel UI',
-    url: 'https://media1.giphy.com/media/lGan8O2WUuU2lI94G2/giphy.gif?cid=790b7611a34f8c71d6bf3e4cd0b60671bf2db92b1d3a88ba&rid=giphy.gif&ct=g',
-    mobileImage: Travel,
-    description: ['React Native UI',]
+  // {
+  //   title: 'Trip UI',
+  //   url: 'https://media4.giphy.com/media/bM0w2QJtD1zZFsvI3G/giphy.gif?cid=790b76119ec73b73b2ca8ffdacb7783542aee569afcb7cb8&rid=giphy.gif&ct=g',
+  //   mobileImage: Trip,
+  //   description: ['React Native UI',]
+  // },
+  // {
+  //   title: 'Travel UI',
+  //   url: 'https://media1.giphy.com/media/lGan8O2WUuU2lI94G2/giphy.gif?cid=790b7611a34f8c71d6bf3e4cd0b60671bf2db92b1d3a88ba&rid=giphy.gif&ct=g',
+  //   mobileImage: Travel,
+  //   description: ['React Native UI',]
 
-  },
+  // },
   {
     title: 'Food Recipe UI',
     url: 'https://media1.giphy.com/media/7wETJL5vkqhdFYc3ZV/giphy.gif?cid=790b7611c2b554a710f2050906c78bafb764fe28660597b2&rid=giphy.gif&ct=g',
     mobileImage: Recipe,
     description: ['React Native UI',]
   },
-  {
-    title: 'Food Delivery UI',
-    url: 'https://media1.giphy.com/media/7wETJL5vkqhdFYc3ZV/giphy.gif?cid=790b7611c2b554a710f2050906c78bafb764fe28660597b2&rid=giphy.gif&ct=g',
-    mobileImage: Delivery,
-    description: ['React Native UI',]
+  // {
+  //   title: 'Food Delivery UI',
+  //   url: 'https://media1.giphy.com/media/7wETJL5vkqhdFYc3ZV/giphy.gif?cid=790b7611c2b554a710f2050906c78bafb764fe28660597b2&rid=giphy.gif&ct=g',
+  //   mobileImage: Delivery,
+  //   description: ['React Native UI',]
 
-  },
+  // },
   {
     title: 'Movie UI',
     url: 'https://media2.giphy.com/media/0RqcoTLSWbR7fb3V2B/giphy.webp',
