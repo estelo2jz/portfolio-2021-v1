@@ -9,12 +9,12 @@ import Trip from "../images/mobile/trip.png";
 
 
 export const MobileItems = [
-  // {
-  //   title: 'Trip UI',
-  //   url: 'https://media4.giphy.com/media/bM0w2QJtD1zZFsvI3G/giphy.gif?cid=790b76119ec73b73b2ca8ffdacb7783542aee569afcb7cb8&rid=giphy.gif&ct=g',
-  //   mobileImage: Trip,
-  //   description: ['React Native UI',]
-  // },
+  {
+    title: 'Trip UI',
+    url: 'https://media4.giphy.com/media/bM0w2QJtD1zZFsvI3G/giphy.gif?cid=790b76119ec73b73b2ca8ffdacb7783542aee569afcb7cb8&rid=giphy.gif&ct=g',
+    mobileImage: Trip,
+    description: ['React Native UI',]
+  },
   // {
   //   title: 'Travel UI',
   //   url: 'https://media1.giphy.com/media/lGan8O2WUuU2lI94G2/giphy.gif?cid=790b7611a34f8c71d6bf3e4cd0b60671bf2db92b1d3a88ba&rid=giphy.gif&ct=g',
