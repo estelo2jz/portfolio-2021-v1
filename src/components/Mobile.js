@@ -22,7 +22,7 @@ export default class Portfolio extends Component {
           </div>
         </div>
         <div className="mobile__project">
-          {MobileItems.map((item, index, props) => {
+          {/* {MobileItems.map((item, index, props) => {
             return (
               <a href={item.url} target="_blank" className="mobile__items__container">
                 <div key={index} className="mobile__url__container">
@@ -35,14 +35,33 @@ export default class Portfolio extends Component {
                     <img src={item.mobileImage} style={{width: '300px'}} alt="mobile-items" />         
                   </div>
                 </div>
-                {/* <div className="mobile__desc__container">
-                  <div className="mobile__desc__items">
-                    <p className="mobile__desc__items__line">{item.description[0]}</p>
-                  </div>
-                </div> */}
               </a>
             )
-          })}
+          })} */}
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/bM0w2QJtD1zZFsvI3G" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/7wETJL5vkqhdFYc3ZV" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/lGan8O2WUuU2lI94G2" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/4k0o2WmW9qOi407HXb" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/0RqcoTLSWbR7fb3V2B" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/u8fzHeUTULOjymU5zA" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/IHcNX1XOEMOGA1lPWQ" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div className="mobile__project__item">
+            <iframe src="https://giphy.com/embed/UNHtksKIA47KIt7NQZ" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
         </div>
       </div>
     )
