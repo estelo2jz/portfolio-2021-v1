@@ -28,27 +28,27 @@ export default class About extends Component {
           </div>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Web / Mobile Developer currently living in Beach Park Illinois.</h2>
+              <h2>I'm a React Developer currently living in Beach Park Illinois.</h2>
               <div className="main__info">
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
                   <br />
-                  Right now I am focusing on React Native for mobile development.
+                  Right now I am mainly focusing on React framework and React Native for mobile development.
                 </p>
                 <p>
                   Most of my projects are built on React framework.
-                  I also have experience with Svelte, Ember, Vue, and Django frameworks.
+                  I also have experience with MongoDB, and NodeJS.
                 </p>
               </div>
               <div className="main__skills-container">
-                  <div className="main__skills-item">
+                  {/* <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={MongoDB} alt="skill-img" />
                     </div>
                     <div className="main__skills-title">
                       <p>MongoDB</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={FirebaseLogo} alt="skill-img" />
@@ -81,14 +81,14 @@ export default class About extends Component {
                       <p>SCSS</p>
                     </div>
                   </div>
-                  <div className="main__skills-item">
+                  {/* <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={JavaScript} alt="skill-img" />
                     </div>
                     <div className="main__skills-title">
                       <p>JavaScript</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={ReactSkill} alt="skill-img" />
@@ -97,22 +97,22 @@ export default class About extends Component {
                       <p>React</p>
                     </div>
                   </div>
-                  <div className="main__skills-item">
+                  {/* <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={Python} alt="skill-img" />
                     </div>
                     <div className="main__skills-title">
                       <p>Python</p>
                     </div>
-                  </div>
-                  <div className="main__skills-item">
+                  </div> */}
+                  {/* <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={NodeJS} alt="skill-img" />
                     </div>
                     <div className="main__skills-title">
                       <p>NodeJS</p>
                     </div>
-                  </div>
+                  </div> */}
               </div>
             </div>
           </div>
