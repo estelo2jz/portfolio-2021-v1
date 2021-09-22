@@ -21,7 +21,7 @@
     // padding: 30px  0px;
     // width: 100%;
     .mobile__logo {
-      // padding:20px;
+      padding:20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,15 +32,16 @@
       }
     }
     .mobile__exp {
-      padding: 20px;
+      padding: 30px;
       width: 50%;
 
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
+      text-align: left;
       line-height: 2em;
       // height: 100%;
+      // padding: 0px;
       p {
         font-size: clamp(1.2em, 1em, 1em);
         // width: 40%;
