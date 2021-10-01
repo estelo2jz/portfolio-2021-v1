@@ -41,9 +41,9 @@ export default class Portfolio extends Component {
           <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/8ph80VfUkzlgrwrmfG" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           </div>
-          <div className="mobile__project__item">
+          {/* <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/geEjlGJbvEWie0QWfU" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          </div>
+          </div> */}
           <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/uRyOXxLzQt87JvTGED" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           </div>
@@ -53,15 +53,15 @@ export default class Portfolio extends Component {
           <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/jDAghfL5WNxjEULj3s" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           </div>
-          <div className="mobile__project__item">
+          {/* <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/ZbxtnVxPRgYwh6khRO" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          </div>
+          </div> */}
           {/* <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/1gKiWRXWLxKxIe2B9S" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           </div> */}
-          <div className="mobile__project__item">
+          {/* <div className="mobile__project__item">
             <iframe src="https://giphy.com/embed/qzcZjXyFm4LCdEjd0Y" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          </div>
+          </div> */}
         </div>
       </div>
     )
