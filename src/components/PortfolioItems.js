@@ -38,6 +38,13 @@ export const PortfolioItems = [
     description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
   },
+  {
+    title: 'JDM Lover',
+    url: 'https://jdmlover.netlify.app/',
+    portfolioImage: Breaklogo,
+    description: ['HTML', 'SCSS', 'React']
+
+  },
   // {
   //   title: 'Movies API',
   //   url: 'https://apimovies.netlify.app/',
