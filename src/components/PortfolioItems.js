@@ -13,6 +13,13 @@ import JunkSellerLogo from '../images/companylogo/junk.png';
 
 export const PortfolioItems = [
   {
+    title: 'JDM Lover Web Shop',
+    url: 'https://jdmlover.netlify.app/',
+    portfolioImage: Breaklogo,
+    description: ['HTML', 'SCSS', 'React']
+
+  },
+  {
     title: 'HULU CLONE API',
     url: 'https://huluwithapi.netlify.app/',
     portfolioImage: HuluLogo,
@@ -36,13 +43,6 @@ export const PortfolioItems = [
     url: 'https://tiktokwithfirebase.netlify.app/',
     portfolioImage: TikTok,
     description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
-
-  },
-  {
-    title: 'JDM Lover',
-    url: 'https://jdmlover.netlify.app/',
-    portfolioImage: Breaklogo,
-    description: ['HTML', 'SCSS', 'React']
 
   },
   // {
