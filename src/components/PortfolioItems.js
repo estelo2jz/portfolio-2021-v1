@@ -15,6 +15,7 @@ import EShopLogo from '../images/companylogo/eshoplogo.png';
 import HuluLogo2 from '../images/companylogo/hululogo.png';
 import YoutubeLogo from '../images/companylogo/youtubeclone.png';
 import TiktokLogo from '../images/companylogo/tiktoklogo.png';
+import PreBuildLogo from '../images/companylogo/prebuild.png';
 
 export const PortfolioItems = [
   {
@@ -25,16 +26,10 @@ export const PortfolioItems = [
 
   },
   {
-    title: 'HULU CLONE API',
-    url: 'https://huluwithapi.netlify.app/',
-    portfolioImage: HuluLogo2,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
-  },
-  {
-    title: 'E-SHOP',
-    url: 'https://junkseller.netlify.app/',
-    portfolioImage: EShopLogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+    title: 'PRE-BUILD PC',
+    url: 'https://pre-build.netlify.app/',
+    portfolioImage: PreBuildLogo,
+    description: ['HTML', 'SCSS', 'JavaScript', 'React']
 
   },
   {
@@ -44,10 +39,23 @@ export const PortfolioItems = [
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
   {
+    title: 'E-SHOP',
+    url: 'https://junkseller.netlify.app/',
+    portfolioImage: EShopLogo,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+
+  },
+  {
+    title: 'HULU CLONE API',
+    url: 'https://huluwithapi.netlify.app/',
+    portfolioImage: HuluLogo2,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
+  },
+  {
     title: 'TIKTOK CLONE',
     url: 'https://tiktokwithfirebase.netlify.app/',
     portfolioImage: TiktokLogo,
-    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
   },
   // {
