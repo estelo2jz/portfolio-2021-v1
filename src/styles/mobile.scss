@@ -32,8 +32,8 @@
       }
     }
     .mobile__exp {
-      padding: 30px;
-      width: 50%;
+      padding: 30px 50px;
+      width: 100%;
 
       display: flex;
       justify-content: center;
@@ -63,7 +63,7 @@
       }
       iframe {
         width: 200px;
-        height: 400px;
+        height: 300px;
         padding: 20px;
         margin: 10px 0px;
         // border-radius: 15%;
@@ -106,7 +106,8 @@
               object-fit: contain;
 
             // height: 100%;
-            img {
+            video {
+              height: 300px;
               object-fit: cover;
               // width: 50%;
               // height: 100%;
