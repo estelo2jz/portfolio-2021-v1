@@ -37,26 +37,10 @@ export default class About extends Component {
                 </p>
                 <p>
                   Most of my projects are built on React framework.
-                  I also have experience with MongoDB, and NodeJS.
+                  {/* I also have experience with MongoDB, and NodeJS. */}
                 </p>
               </div>
               <div className="main__skills-container">
-                  {/* <div className="main__skills-item">
-                    <div className="main__skills-img">
-                      <img src={MongoDB} alt="skill-img" />
-                    </div>
-                    <div className="main__skills-title">
-                      <p>MongoDB</p>
-                    </div>
-                  </div> */}
-                  <div className="main__skills-item">
-                    <div className="main__skills-img">
-                      <img src={FirebaseLogo} alt="skill-img" />
-                    </div>
-                    <div className="main__skills-title">
-                      <p>Firebase</p>
-                    </div>
-                  </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={HTML} alt="skill-img" />
@@ -81,14 +65,6 @@ export default class About extends Component {
                       <p>SCSS</p>
                     </div>
                   </div>
-                  {/* <div className="main__skills-item">
-                    <div className="main__skills-img">
-                      <img src={JavaScript} alt="skill-img" />
-                    </div>
-                    <div className="main__skills-title">
-                      <p>JavaScript</p>
-                    </div>
-                  </div> */}
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={ReactSkill} alt="skill-img" />
@@ -97,14 +73,22 @@ export default class About extends Component {
                       <p>React</p>
                     </div>
                   </div>
-                  {/* <div className="main__skills-item">
+                  <div className="main__skills-item">
                     <div className="main__skills-img">
-                      <img src={Python} alt="skill-img" />
+                      <img src={MongoDB} alt="skill-img" />
                     </div>
                     <div className="main__skills-title">
-                      <p>Python</p>
+                      <p>MongoDB</p>
                     </div>
-                  </div> */}
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={FirebaseLogo} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>Firebase</p>
+                    </div>
+                  </div>
                   {/* <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={NodeJS} alt="skill-img" />
