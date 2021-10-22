@@ -31,7 +31,7 @@ export default class Portfolio extends Component {
                             <img src={item.portfolioImage} alt="portfolio-items" />
                           </div>
                         </div>
-                        <div className="portfolio__desc__container">
+                        {/* <div className="portfolio__desc__container">
                           <div className="portfolio__desc__items">
                             <p className="portfolio__desc__items__line">{item.description[0]}</p>
                             <p className="portfolio__desc__items__line">{item.description[1]}</p>
@@ -41,7 +41,7 @@ export default class Portfolio extends Component {
                             <p className="portfolio__desc__items__line">{item.description[5]}</p>
                             <p className="portfolio__desc__items__line">{item.description[6]}</p>
                           </div>
-                        </div>
+                        </div> */}
                       </a>
                     )
                   })}
