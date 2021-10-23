@@ -10,7 +10,7 @@ $vanBG: 'red';
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 1;
   // background: rgba(0, 0, 0, 0.556);
   background-color: #496088;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
@@ -71,6 +71,7 @@ $vanBG: 'red';
   top: 0;
   left: -100%;
   transition: 850ms;
+  z-index: 2;
 
 }
 
@@ -79,7 +80,7 @@ $vanBG: 'red';
   transition: all 350ms linear;
   // background: rgba(0, 0, 0, 0.556);
   // background-color: maroon;
-  z-index: 10000;
+  z-index: 1;
   // width: 130px;
 }
 
@@ -133,7 +134,7 @@ $vanBG: 'red';
   justify-content: start;
   align-items: center;
   transition: all 0.3s linear;
-  z-index: 10000 !important;
+  z-index: 1 !important;
 
   svg {
     width: 20px;
