@@ -24,7 +24,7 @@ export default class Portfolio extends Component {
         <div className="mobile__project">
           {MobileItems.map((item, index, props) => {
             return (
-              <a href={item.url} target="_blank" className="mobile__items__container">
+              <a className="mobile__items__container">
                 <div key={index} className="mobile__url__container">
                   <p className={item.cName}>
                     {item.title}
