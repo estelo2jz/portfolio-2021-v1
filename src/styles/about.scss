@@ -10,7 +10,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     .main__header {
       font-size: clamp(2rem, 5vw, 3rem);
-      color: black;
+      color: rgb(255, 255, 255);
       margin-bottom: 32px;
       p {}
 
@@ -67,7 +67,7 @@
               p {
                 text-align: center;
                 font-weight: 600;
-                color: black !important;
+                color: rgb(0, 0, 0) !important;
                 // padding: 5px;
                 width: 100%;
                 font-size: clamp(1em, 1vw, 1rem);
@@ -97,7 +97,7 @@
           font-size: clamp(1rem, 2vw, 2rem);
           line-height: 1.5;
           margin-bottom: 32px;
-          color: black;
+          color: rgb(255, 255, 255);
           font-weight: 0;
         }
         .main__info {
@@ -105,7 +105,7 @@
           max-width: 700px;
           p {
             line-height: 1.7;
-            color: black;
+            color: rgb(255, 255, 255);
             width: auto;
             font-size: clamp(1rem, 1.5vw, 1.5rem);
           }
