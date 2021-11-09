@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { AiTwotoneMail } from 'react-icons/ai';
-
-
 export default class Contact extends Component {
   render() {
     return (
