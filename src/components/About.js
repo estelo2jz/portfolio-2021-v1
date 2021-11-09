@@ -28,7 +28,7 @@ export default class About extends Component {
           </div>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a React Developer currently living in Beach Park Illinois.</h2>
+              <h2>I'm a Web Developer currently living in Beach Park Illinois.</h2>
               <div className="main__info">
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
