@@ -22,7 +22,7 @@ function Navbar() {
           </Link>
           <div className="menu-header">
             <p className="text" data-text="Estelo Abellanosa">Estelo Abellanosa</p>
-            <p className="text-react">React Developer</p>
+            <p className="text-react">Web Developer</p>
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
