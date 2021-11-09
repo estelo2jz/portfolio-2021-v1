@@ -51,13 +51,13 @@ export const PortfolioItems = [
     portfolioImage: HuluLogo2,
     // description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
-  {
-    title: 'TIKTOK CLONE',
-    url: 'https://tiktokwithfirebase.netlify.app/',
-    portfolioImage: TiktokLogo,
-    // description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+  // {
+  //   title: 'TIKTOK CLONE',
+  //   url: 'https://tiktokwithfirebase.netlify.app/',
+  //   portfolioImage: TiktokLogo,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
-  },
+  // },
   // {
   //   title: 'Movies API',
   //   url: 'https://apimovies.netlify.app/',
