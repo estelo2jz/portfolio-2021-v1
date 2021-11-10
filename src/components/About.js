@@ -46,57 +46,57 @@ export default class About extends Component {
                     <div className="main__skills-img">
                       <img src={HTML} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>HTML</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={CSS} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>CSS</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={SCSS} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>SCSS</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={BootstapLogo} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>Bootstap</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={ReactSkill} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>React</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={MongoDB} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>MongoDB</p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={FirebaseLogo} alt="skill-img" />
                     </div>
-                    <div className="main__skills-title">
+                    {/* <div className="main__skills-title">
                       <p>Firebase</p>
-                    </div>
+                    </div> */}
                   </div>
                   {/* <div className="main__skills-item">
                     <div className="main__skills-img">
