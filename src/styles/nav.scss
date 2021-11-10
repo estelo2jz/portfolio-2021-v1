@@ -11,6 +11,7 @@ $vanBG: 'red';
   left: 0;
   width: 100%;
   z-index: 1;
+  padding: 10px 0px;
   // background: rgba(0, 0, 0, 0.556);
   background-color: #000000;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
@@ -36,19 +37,21 @@ $vanBG: 'red';
     .text {
       color: white;
       font-size: 1.5rem;
-
+      
       p {
         // margin-right: 30px;
+        padding: 10px 0px;
         font-family: 'Sansita Swashed', cursive;
         z-index: 100000;
+        color: #FFFFFF;
       }
     }
     .text-react {
       color: white;
+      padding: 5px 0px;
       font-size: 1.1rem;
       font-style: italic;
       p {
-        margin-right: 30px;
         font-family: 'Sansita Swashed', cursive;
         z-index: 100000;
       }
