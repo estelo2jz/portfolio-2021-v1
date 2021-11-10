@@ -9,6 +9,7 @@ import PortfolioCard from "./components/PortfolioCard";
 import Contact from "./components/Contact";
 import ContactForm from './components/ConformForm';
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import '../src/styles/main.scss';
 
@@ -20,6 +21,7 @@ function App() {
       </header> */}
       <Nav />
       <Home />
+      <ScrollToTop />
       <About />
       {/* <Services /> */}
       <Portfolio />
