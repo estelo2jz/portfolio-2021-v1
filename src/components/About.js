@@ -11,6 +11,7 @@ import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
+import BootstapLogo from '../logo/skills/bootstrap.png';
 
 // import VueLogo from '../logo/skills/vue.png';
 // import DjangoLogo from '../logo/skills/django2.png';
@@ -63,6 +64,14 @@ export default class About extends Component {
                     </div>
                     <div className="main__skills-title">
                       <p>SCSS</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={BootstapLogo} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>Bootstap</p>
                     </div>
                   </div>
                   <div className="main__skills-item">
