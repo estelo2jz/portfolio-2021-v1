@@ -17,15 +17,15 @@ function Navbar() {
     <Router>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          <Link to='#' className='menu-bars'>
+          {/* <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
-          </Link>
+          </Link> */}
           <div className="menu-header">
             <p className="text" data-text="Estelo Abellanosa">Estelo Abellanosa</p>
             <p className="text-react">Web Developer</p>
           </div>
         </div>
-        <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+        {/* <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
               <Link to='#' className='menu-bars'>
@@ -45,7 +45,6 @@ function Navbar() {
                 About
               </a>
             </li>
-            {/* <li className="nav-text"><a href="#services">Services</a></li> */}
             <li className="nav-text">
                 <AppsIcon />
               <a href="#portfolio">
@@ -60,7 +59,7 @@ function Navbar() {
             </li>
            </ul>
           </ul>
-        </nav>
+        </nav> */}
       </IconContext.Provider>
     </Router>
   );
