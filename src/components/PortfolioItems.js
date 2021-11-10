@@ -29,27 +29,27 @@ export const PortfolioItems = [
     title: 'PRE-BUILD PC',
     url: 'https://pre-build.netlify.app/',
     portfolioImage: PreBuildLogo,
-    // description: ['HTML', 'SCSS', 'JavaScript', 'React']
+    description: ['HTML', 'SCSS', 'JavaScript', 'React']
 
   },
   {
     title: 'YouTube Clone',
     url: 'https://youtubewithfirebase.netlify.app/',
     portfolioImage: YoutubeLogo,
-    // description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
   {
     title: 'E-SHOP',
     url: 'https://junkseller.netlify.app/',
     portfolioImage: EShopLogo,
-    // description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
 
   },
   {
     title: 'HULU CLONE API',
     url: 'https://huluwithapi.netlify.app/',
     portfolioImage: HuluLogo2,
-    // description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
   // {
   //   title: 'TIKTOK CLONE',
