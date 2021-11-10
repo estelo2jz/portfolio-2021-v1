@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {PortfolioItems} from "./PortfolioItems";
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+import PortfolioDesc from './PortfolioDesc';
 
 
 export default class Portfolio extends Component {
@@ -21,11 +22,12 @@ export default class Portfolio extends Component {
                   {PortfolioItems.map((item, index, props) => {
                     return (
                       <a href={item.url} target="_blank"  className="portfolioitems__container">
-                        <div key={index} className="portfolio__url-container">
+                        {/* <div key={index} className="portfolio__url-container">
                           <p className={item.cName}>
                             {item.title}
+                            <PortfolioDesc description={item.description} />
                           </p>
-                        </div>
+                        </div> */}
                         <div className="portfolio__image__container">
                           <div className="portfolio__image__self">
                             <img src={item.portfolioImage} alt="portfolio-items" />
