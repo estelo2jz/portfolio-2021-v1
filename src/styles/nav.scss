@@ -4,7 +4,7 @@ $vanBG: 'red';
   // background-color: #060b26;
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   top: 0;
@@ -31,6 +31,7 @@ $vanBG: 'red';
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
+    text-align: center;
     
     .text {
       color: white;
