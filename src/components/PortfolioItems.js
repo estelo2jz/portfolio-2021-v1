@@ -8,6 +8,7 @@ import PizzaLogo from "../images/companylogo/pizza.png";
 import AmazonLogo from "../images/companylogo/amazon.png";
 import HuluLogo from "../images/companylogo/hulu.png";
 import SongLibrary from "../images/companylogo/songlibrary.png";
+import Crypto from "../images/companylogo/crypto.png";
 import EBUILD from './logo3.png';
 import JunkSellerLogo from '../images/companylogo/junk.png';
 import JDMLogo from '../images/companylogo/jdmlover.png';
@@ -44,6 +45,12 @@ export const PortfolioItems = [
     portfolioImage: EShopLogo,
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
 
+  },
+  {
+    title: 'Crypto Currency API',
+    url: 'https://crypto-currencyy.netlify.app/',
+    portfolioImage: Crypto,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
   {
     title: 'HULU CLONE API',
