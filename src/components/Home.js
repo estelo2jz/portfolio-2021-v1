@@ -36,7 +36,7 @@ export default class Home extends Component {
               From there I started building and implementing web and mobile application to learn more about the React framework for building UI's.
               I spend time building, studying and learning other wbsites that i come across to.
               Back-End is really not my forte I mainly focus on building UI's.
-              I do have experience with Back-End techonologies like Node.js, Express.js, MongoDB, MySQL, Firebase and E-CommerceJS. 
+              I do have experience with Back-End techonologies like Node.js, Express.js, MongoDB, APIs, MySQL, Firebase and E-CommerceJS. 
 
             </p>
           </div>
