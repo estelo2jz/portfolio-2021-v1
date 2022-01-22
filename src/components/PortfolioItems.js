@@ -17,7 +17,7 @@ import HuluLogo2 from '../images/companylogo/hululogo.png';
 import YoutubeLogo from '../images/companylogo/youtubeclone.png';
 import TiktokLogo from '../images/companylogo/tiktoklogo.png';
 import PreBuildLogo from '../images/companylogo/prebuild.png';
-import BlazedKid from '../images/companylogo/blazedkid000.jpeg';
+import BlazedKid from '../images/companylogo/nft.png';
 
 export const PortfolioItems = [
     {

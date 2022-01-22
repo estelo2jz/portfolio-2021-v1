@@ -34,7 +34,7 @@ export default class About extends Component {
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
                   <br />
-                  Right now I am mainly focusing on React framework and React Native for mobile development.
+                  {/* Right now I am mainly focusing on React framework and React Native for mobile development. */}
                 </p>
                 <p>
                   Most of my projects are built on React framework.
