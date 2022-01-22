@@ -17,8 +17,16 @@ import HuluLogo2 from '../images/companylogo/hululogo.png';
 import YoutubeLogo from '../images/companylogo/youtubeclone.png';
 import TiktokLogo from '../images/companylogo/tiktoklogo.png';
 import PreBuildLogo from '../images/companylogo/prebuild.png';
+import BlazedKid from '../images/companylogo/blazedkid000.jpeg';
 
 export const PortfolioItems = [
+    {
+    title: 'Blazed Kid NFT',
+    url: 'https://blazed-kid.netlify.app/',
+    portfolioImage: BlazedKid,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+
+  },
   {
     title: 'JDM Lover Web Shop',
     url: 'https://jdmlover.netlify.app/',
@@ -52,12 +60,12 @@ export const PortfolioItems = [
     portfolioImage: Crypto,
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
-  {
-    title: 'HULU CLONE API',
-    url: 'https://huluwithapi.netlify.app/',
-    portfolioImage: HuluLogo2,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
-  },
+  // {
+  //   title: 'HULU CLONE API',
+  //   url: 'https://huluwithapi.netlify.app/',
+  //   portfolioImage: HuluLogo2,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
+  // },
   // {
   //   title: 'TIKTOK CLONE',
   //   url: 'https://tiktokwithfirebase.netlify.app/',

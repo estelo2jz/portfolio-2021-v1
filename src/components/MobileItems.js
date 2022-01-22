@@ -47,12 +47,12 @@ export const MobileItems = [
     mobileImage: Furniture,
     description: ['React Native UI',]
   },
-  {
-    title: 'Crypto UI',
-    // url: "",
-    mobileImage: Crypto,
-    description: ['React Native UI',]
-  },
+  // {
+  //   title: 'Crypto UI',
+  //   // url: "",
+  //   mobileImage: Crypto,
+  //   description: ['React Native UI',]
+  // },
   {
     title: 'Boba Tea UI',
     // url: "",
