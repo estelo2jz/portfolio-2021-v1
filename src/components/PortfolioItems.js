@@ -11,13 +11,13 @@ import SongLibrary from "../images/companylogo/songlibrary.png";
 import Crypto from "../images/companylogo/crypto.png";
 import EBUILD from './logo3.png';
 import JunkSellerLogo from '../images/companylogo/junk.png';
-import JDMLogo from '../images/companylogo/jdmlover.png';
+import JDMLogo from '../images/companylogo/jdmlover.gif';
 import EShopLogo from '../images/companylogo/eshoplogo.png';
 import HuluLogo2 from '../images/companylogo/hululogo.png';
 import YoutubeLogo from '../images/companylogo/youtubeclone.png';
 import TiktokLogo from '../images/companylogo/tiktoklogo.png';
-import PreBuildLogo from '../images/companylogo/prebuild.png';
-import BlazedKid from '../images/companylogo/nft.png';
+import PreBuildLogo from '../images/companylogo/prebuild.gif';
+import BlazedKid from '../images/companylogo/bkid.gif';
 
 export const PortfolioItems = [
     {
