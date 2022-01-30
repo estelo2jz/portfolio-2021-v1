@@ -47,13 +47,13 @@ export const PortfolioItems = [
     portfolioImage: YoutubeLogo,
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
-  {
-    title: 'E-SHOP',
-    url: 'https://junkseller.netlify.app/',
-    portfolioImage: EShopLogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+  // {
+  //   title: 'E-SHOP',
+  //   url: 'https://junkseller.netlify.app/',
+  //   portfolioImage: EShopLogo,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
 
-  },
+  // },
   {
     title: 'Crypto Currency API',
     url: 'https://crypto-currencyy.netlify.app/',
