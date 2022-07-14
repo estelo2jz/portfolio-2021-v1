@@ -29,7 +29,7 @@ export const MobileItems = [
   //   description: ['React Native UI',]
   // },
   {
-    title: 'Food Delivery UI',
+    // title: 'Food Delivery UI',
     // url: "",
     mobileImage: Delivery,
     description: ['React Native UI',]
@@ -42,7 +42,7 @@ export const MobileItems = [
   //   description: ['React Native UI',]
   // },
   {
-    title: 'Furniture UI',
+    // title: 'Furniture UI',
     // url: "",
     mobileImage: Furniture,
     description: ['React Native UI',]
@@ -54,7 +54,7 @@ export const MobileItems = [
   //   description: ['React Native UI',]
   // },
   {
-    title: 'Boba Tea UI',
+    // title: 'Boba Tea UI',
     // url: "",
     mobileImage: Boba,
     description: ['React Native UI',]
