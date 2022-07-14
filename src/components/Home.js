@@ -26,10 +26,7 @@ export default class Home extends Component {
               </div>
             </div>
             <p>
-              I'm a self-taught Web developer with 2+ years of experience.
-              I started studying we development at a coding bootcamp called Bottega which gave me the basic and foundation of my skills.
-              Took courses at Udemy after my bootcamp completed to expand my experience of front-end development.
-              From there I started building and implementing web and mobile application to learn more about the React framework for building UI's.
+              I'm a self-taught Web developer with 2+ years of experience and a bit of graphic design mostly on <a className="vect" target="_blank" href="https://www.vectornator.io">Vectornator</a> Where i created my little NFT project called Blazed Kid, you can check it out on my project. 
             </p>
           </div>
         </div>
