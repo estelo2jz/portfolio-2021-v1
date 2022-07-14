@@ -27,4 +27,11 @@ export const PortfolioItems = [
     description: ['HTML', 'SCSS', 'JavaScript', 'React']
 
   },
+  {
+    title: 'PRE-BUILD PC',
+    url: 'https://crypto-currencyy.netlify.app/',
+    portfolioImage: Crypto,
+    description: ['HTML', 'SCSS', 'JavaScript', 'React']
+
+  },
 ]
