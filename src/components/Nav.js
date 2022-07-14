@@ -10,6 +10,8 @@ import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import AppsIcon from "@material-ui/icons/Apps";
 import EmailIcon from "@material-ui/icons/Email";
 
+import EA from "./3done.png";
+
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
@@ -18,10 +20,11 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
           <div className="menu-header">
-            <p className="text" data-text="Estelo Abellanosa">
+            {/* <p className="text-react">Web Developer</p> */}
+            {/* <p className="text" data-text="Estelo Abellanosa">
               Estelo Abellanosa
-            </p>
-            <p className="text-react">Web Developer</p>
+            </p> */}
+            <img src={EA} alt="logo" />
           </div>
         </div>
       </IconContext.Provider>
