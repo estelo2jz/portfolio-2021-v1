@@ -27,17 +27,4 @@ export const PortfolioItems = [
     description: ['HTML', 'SCSS', 'JavaScript', 'React']
 
   },
-  {
-    title: 'YouTube Clone',
-    url: 'https://youtubewithfirebase.netlify.app/',
-    portfolioImage: YoutubeLogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
-  },
-
-  {
-    title: 'Crypto Currency API',
-    url: 'https://crypto-currencyy.netlify.app/',
-    portfolioImage: Crypto,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
-  },
 ]
