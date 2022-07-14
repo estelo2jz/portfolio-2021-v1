@@ -11,7 +11,7 @@ export default class Contact extends Component {
           <p>Email</p> */}
           <span>estelo2jz@gmail.com</span>
         </div>  
-        <h1>Contact Me</h1>
+        <h1>Hire Me!</h1>
       </div>
     )
   }
