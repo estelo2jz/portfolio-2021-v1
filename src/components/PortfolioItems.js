@@ -1,5 +1,7 @@
 
 import Crypto from "../images/companylogo/crypto.png";
+import BK from "../images/companylogo/BlazedKid.png";
+import BK1 from "../images/companylogo/BK3.png";
 import JDMLogo from '../images/companylogo/jdmlover.gif';
 import YoutubeLogo from '../images/companylogo/youtubeclone.png';
 import PreBuildLogo from '../images/companylogo/prebuild.gif';
@@ -9,7 +11,7 @@ export const PortfolioItems = [
     {
     title: 'Blazed Kid NFT',
     url: 'https://blazed-kid.netlify.app/',
-    portfolioImage: BlazedKid,
+    portfolioImage: BK1,
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
   },
