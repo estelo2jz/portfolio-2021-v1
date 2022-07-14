@@ -25,6 +25,7 @@ function App() {
       <About />
       {/* <Services /> */}
       <Portfolio />
+      <Mobile />
       <Contact />
       {/* <ContactForm /> */}
       <Footer />
