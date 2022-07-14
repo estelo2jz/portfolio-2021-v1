@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
           </div> */}
           <div className="mobile__exp">
             <p>
-              My experience in building and implementing react native projects to improve my skills by learning on how to build better UI.
+              Android Studio
             </p>
           </div>
         </div>
