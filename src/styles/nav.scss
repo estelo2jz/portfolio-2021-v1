@@ -2,7 +2,7 @@ $vanBG: 'red';
 
 .navbar {
   // background-color: #060b26;
-  height: 100px;
+  // height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,17 +11,17 @@ $vanBG: 'red';
   left: 0;
   width: 100%;
   z-index: 1;
-  padding: 10px 0px;
-  background-color: rgba(145, 79, 79, 0.337); /* Transparent Yellow */
+  padding: 0px 0px;
+  // background-color: rgba(145, 79, 79, 0.337); /* Transparent Yellow */
   // background-color: #ffffff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
   // -webkit-box-shadow: 0 8px 6px -6px black;
   //  -moz-box-shadow: 0 8px 6px -6px black;
   //       box-shadow: 0 8px 6px -6px black;
   scroll-behavior: smooth;
-  -webkit-box-shadow: 0px 3px 5px 0px rgb(157, 60, 60);
-  -moz-box-shadow: 0px 3px 5px 0px rgb(179, 63, 63);
-  box-shadow: 0px 3px 5px 0px rgb(184, 57, 57);
+  // -webkit-box-shadow: 0px 3px 5px 0px rgb(157, 60, 60);
+  // -moz-box-shadow: 0px 3px 5px 0px rgb(179, 63, 63);
+  // box-shadow: 0px 3px 5px 0px rgb(184, 57, 57);
 
   svg {
     width: 20px;
@@ -29,10 +29,16 @@ $vanBG: 'red';
 
   .menu-header {
     // display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20px;
-    text-align: center;
+    // justify-content: space-between;
+    // align-items: center;
+    // margin-right: 20px;
+    // text-align: center;
+    img {
+      background-size: cover;
+      background-position: center;
+      width: 200px;
+      height: 200px;
+    }
     
     .text {
       color: rgb(255, 255, 255);
