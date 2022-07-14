@@ -9,6 +9,7 @@ import Python from '../logo/skills/python.svg';
 import ReactSkill from '../logo/skills/react.svg';
 import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
+import Vec from '../logo/skills/vec.png';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
 import BootstapLogo from '../logo/skills/bootstrap.png';
@@ -29,7 +30,7 @@ export default class About extends Component {
           </div>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Web Developer currently living in Beach Park Illinois.</h2>
+              <h2>I'm a Web Developer / Graphic Designer living in Beach Park Illinois.</h2>
               <div className="main__info">
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
@@ -42,6 +43,14 @@ export default class About extends Component {
                 </p>
               </div>
               <div className="main__skills-container">
+              <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={Vec} alt="skill-img" />
+                    </div>
+                    {/* <div className="main__skills-title">
+                      <p>HTML</p>
+                    </div> */}
+                  </div>
                   <div className="main__skills-item">
                     <div className="main__skills-img">
                       <img src={HTML} alt="skill-img" />
